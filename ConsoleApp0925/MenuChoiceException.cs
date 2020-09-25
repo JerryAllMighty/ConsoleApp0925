@@ -19,7 +19,7 @@ namespace ConsoleApp0925
         {
             this.wrongchoice = choice;
         }
-
+         
         public void ShowWrongChoice()
         {
             Console.WriteLine(this.wrongchoice + "에 해당하는 메뉴는 존재하지 않습니다.");
